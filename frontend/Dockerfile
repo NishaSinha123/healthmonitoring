@@ -4,6 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
+ENV VITE_API_URL=https://healthmonitoring-backend-7p25.onrender.com
 RUN npm run build
 
 # Production stage with nginx
