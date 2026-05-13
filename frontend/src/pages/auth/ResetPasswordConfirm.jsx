@@ -21,7 +21,7 @@ const ResetPasswordConfirm = () => {
 
   const API_BASE_URL = import.meta.env.VITE_API_URL
     ? `${import.meta.env.VITE_API_URL.replace(/\/$/, "")}/api`
-    : "http://localhost:8000/api";
+    : "https://healthmonitoring-backend-7p25.onrender.com/api";
 
   // Validate token on mount
   useEffect(() => {
