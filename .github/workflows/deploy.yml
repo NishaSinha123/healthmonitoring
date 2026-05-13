@@ -20,15 +20,15 @@ jobs:
 
       - name: Install Backend Dependencies
         working-directory: ./backend
-        run: npm ci
+        run: npm install
 
       - name: Install Frontend Dependencies
         working-directory: ./frontend
-        run: npm ci
+        run: npm install
 
       - name: Build Frontend
         working-directory: ./frontend
         run: npm run build
 
       - name: Build Docker Images (Dry Run)
-        run: docker-compose build
+        run: docker compose build
