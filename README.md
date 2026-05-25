@@ -154,4 +154,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 - Icons by Lucide React.
 - Charts by Recharts.
 
-Developed by Soumyosish Pal
+Developed by Nisha Sinha
